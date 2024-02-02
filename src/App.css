@@ -1,0 +1,53 @@
+body {
+    @apply flex flex-col items-center bg-gray-800 text-white
+}
+  
+.x-hover:hover::after {
+    content: "X";
+    @apply opacity-40
+}
+  
+.o-hover:hover::after {
+    content: "O";
+    @apply opacity-40
+}
+
+.strike {
+ @apply absolute bg-orange-500
+}
+
+.strike-row-1 {
+ @apply w-full h-1 top-[15%]
+}
+
+.strike-row-2 {
+  @apply w-full h-1 top-[49%] 
+}
+
+.strike-row-3 {
+  @apply w-full h-1 top-[83%] 
+}
+
+.strike-column-1 {
+  @apply h-full w-1 left-[15%]
+}
+
+.strike-column-2 {
+  @apply h-full w-1 left-[49%]
+}
+
+.strike-column-3 {
+  @apply h-full w-1 left-[83%]
+}
+
+.strike-diagonal-1 {
+ @apply w-[120%] h-1 top-[51%] -left-6 origin-center rotate-45
+}
+
+.strike-diagonal-2 {
+  @apply w-[120%] h-1 top-[49%] -left-7 origin-center -rotate-45
+}
+
+.game-over {
+  @apply text-center border-8 border-dotted border-blue-500 p-6 mt-10 text-lg
+}
