@@ -100,7 +100,7 @@ export default function TicTacToe() {
     }, [gameState]);
 
     return(
-        <div className="whole">
+        <div className="flex flex-col w-full items-center my-6">
          <Board 
           playerTurn={playerTurn} 
           tiles={tiles} 
