@@ -100,10 +100,7 @@ export default function TicTacToe() {
     }, [gameState]);
 
     return(
-        <div>
-         <h1 className="text-3xl font-bold text-dark-200 text-center py-6">
-          Tic Tac Toe
-         </h1>
+        <div className="whole">
          <Board 
           playerTurn={playerTurn} 
           tiles={tiles} 
