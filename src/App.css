@@ -46,13 +46,13 @@ body.dark {
 }
 
 .strike-diagonal-1 {
- @apply w-[120%] h-1 top-[48%] -left-4 sm:top-[51%] sm:-left-6 origin-center rotate-45
+ @apply w-[120%] h-1 top-[49%] -left-6 sm:top-[51%] sm:-left-6 lg:top-[52%] lg:-left-6 origin-center rotate-45
 }
 
 .strike-diagonal-2 {
-  @apply w-[120%] h-1 top-[48%] -left-5 sm:top-[49%] sm:-left-7 origin-center -rotate-45
+  @apply w-[120%] h-1 top-[48%] -left-6 sm:top-[49%] sm:-left-7 lg:top-[50%] lg:-left-9 origin-center -rotate-45
 }
 
 .game-over {
-  @apply text-center border-8 border-dotted border-blue-500 p-3 mt-5 sm:p-6 sm:mt-10 text-lg
+  @apply text-center border-8 border-dotted border-blue-500 p-3 mt-5 sm:p-6 sm:mt-10 text-lg md:text-2xl xl:text-3xl
 }

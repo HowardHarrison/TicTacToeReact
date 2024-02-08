@@ -4,7 +4,7 @@ import Tile from "./Tile";
 
 export default function Board({ tiles ,onTileClick, playerTurn, strikeClass }) {
     return(
-        <div className="max-w-[620px] max-h-[620px] relative grid grid-cols-3 grid-rows-3 mx-auto  cursor-pointer">
+        <div className="max-w-[720px] max-h-[720px] relative grid grid-cols-3 grid-rows-3 mx-auto cursor-pointer mt-2">
          <Tile playerTurn={playerTurn} onClick={() => onTileClick(0)} value={tiles[0]} className='border-r-4 border-b-4 border-solid border-blue-500'/>
          <Tile playerTurn={playerTurn} onClick={() => onTileClick(1)} value={tiles[1]} className='border-r-4 border-b-4 border-solid border-blue-500'/>
          <Tile playerTurn={playerTurn} onClick={() => onTileClick(2)} value={tiles[2]} className='border-b-4 border-solid border-blue-500'/>
