@@ -15,7 +15,7 @@ export default function Header({ voice, onChange}) {
 
     return (
         <div className="flex justify-between bg-blue-500">
-         <h1 className="text-2xl font-bold text-dark-200 m-6 ">
+         <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-dark-200 m-6 ">
           Tic Tac Toe
          </h1>
          <div className="text-3xl font-bold text-dark-200 m-6 flex">

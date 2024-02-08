@@ -5,6 +5,6 @@ export default function Reset({ gameState, onReset}) {
      return;
     }
     return (
-        <button onClick={onReset} className="p-6 mt-10 mx-10 w-60 bg-blue-500 text-xl">Reset</button>
+        <button onClick={onReset} className="p-3 mt-5 sm:p-6 sm:mt-10 mx-10 w-48 sm:w-60 bg-blue-500 text-xl">Reset</button>
     )
 }
